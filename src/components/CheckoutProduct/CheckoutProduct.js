@@ -11,9 +11,8 @@ const CheckoutProduct = (props) => {
         dispatch({
             type: 'REMOVE_FROM_CART',
             id: props.id,
-        })
-
-    }
+        });
+    };
     return (
         <div className="checkoutProduct">
             <img className="checkoutProduct__image" src={props.image} alt="productImage"/>
@@ -30,7 +29,9 @@ const CheckoutProduct = (props) => {
                             <StarBorderIcon key={index} style={{color: "orange"}}/>);
                     })}
                 </div>
-                <button onClick={removeFromBasket}>Remove from Cart</button>
+                {!props.hideButton && (
+                    <button onClick={removeFromBasket}>Remove from Cart</button>
+                )}
             </div>
         </div>
     );

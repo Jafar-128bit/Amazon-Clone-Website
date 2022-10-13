@@ -5,8 +5,17 @@
       <change afterPath="$PROJECT_DIR$/.firebase/hosting.YnVpbGQ.cache" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.firebaserc" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/firebase.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions/ui-debug.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/public/amazon-logo.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Helper/axiosFunction.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Order/Order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Order/Order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Orders/Orders.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Orders/Orders.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Payment/Payment.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Payment/Payment.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ui-debug.log" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Hotel Booking Web App/hotel_bookin_app_frontend" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -19,8 +28,10 @@
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Helper/reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Helper/reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Checkout/Checkout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Checkout/Checkout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/CheckoutProduct/CheckoutProduct.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/CheckoutProduct/CheckoutProduct.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Login/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Login/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Subtotal/Subtotal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Subtotal/Subtotal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../combined_api/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../combined_api/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../combined_api/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/../combined_api/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../combined_api/controller/authoriser.js" beforeDir="false" afterPath="$PROJECT_DIR$/../combined_api/controller/authoriser.js" afterDir="false" />
@@ -1791,8 +1802,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -1821,7 +1832,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../combined_api" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Hotel Booking Web App/hotel_bookin_app_frontend" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -1836,6 +1847,16 @@
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
       <method v="2" />
     </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -1846,6 +1867,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -1865,7 +1891,9 @@
       <workItem from="1664939569872" duration="13699000" />
       <workItem from="1665065785329" duration="400000" />
       <workItem from="1665115905127" duration="7718000" />
-      <workItem from="1665283976466" duration="7169000" />
+      <workItem from="1665283976466" duration="10591000" />
+      <workItem from="1665453489779" duration="20126000" />
+      <workItem from="1665539899410" duration="22080000" />
     </task>
     <task id="LOCAL-00001" summary="Header Component: Basic structure is complete.&#10;Home Component: Basic structure is complete.&#10;Product Component: Basic structure is complete.">
       <created>1663238303542</created>
